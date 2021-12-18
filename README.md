@@ -40,13 +40,11 @@ Requirments:
 
 ![deliverable1_part1](https://user-images.githubusercontent.com/89880015/146652083-aa2a5fce-ffe3-4670-b90f-205a91e1d472.PNG)
 
-#The model: 
-
-mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
-
 * 2.) An RScript is written for a linear regression model to be performed on all six variables
 
 ![deliverable1_part2](https://user-images.githubusercontent.com/89880015/146652117-000d0b1e-da73-47f5-bc9f-2d24f71fa4e3.PNG)
+
+# mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
 
 * 3.) An RScript is written to create the statistical summary of the linear regression model with the intended p-values
 
