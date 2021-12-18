@@ -115,7 +115,25 @@ Note: We will beginneing each test with the knowledge that we are using a 95% co
 
 # all manufacturing lots 
 
-![deliverable3_part3](https://user-images.githubusercontent.com/89880015/146653989-24ab0cc2-d3a4-4746-a2a7-9c1c1f10802b.PNG)
+![deliverable3_part3](https://user-images.githubusercontent.com/89880015/146654050-a6e4f616-6477-4a2a-8cfb-a04a1f80162f.PNG)
 
+p-value = 0.6072
+
+Our p-value is greater than 0.05 which means we accept the null hypothesis. The mean is not statistically significant in its difference to the assumed population mean (1500)
+
+# lots 1-3
+
+![deliverable3_part4](https://user-images.githubusercontent.com/89880015/146654107-bef8728c-f965-4746-a23c-e70f07643278.PNG)
+
+lot 1: p-value = 1
+Our p-value is greater than 0.05 which means we accept the null hypothesis. The mean is not statistically significant in its difference to the assumed population mean (1500)
+
+lot 2: p-value = 0.6072
+Our p-value is greater than 0.05 which means we accept the null hypothesis. The mean is not statistically significant in its difference to the assumed population mean (1500)
+
+lot 3: p-value = 0.04168
+Our p-value is less than 0.05 which means we reject the null hypothesis. The mean is statistically significant in its difference to the assumed population mean (1500)
+
+# Deliverable 4
 
 
