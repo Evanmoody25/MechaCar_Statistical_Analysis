@@ -1,3 +1,4 @@
+# Deliverable 1
 # 1.) Downloaded the appropriate data (MechaCar_mpg,csv)
 
 # 2.) Create a new RScript in your R source pane
@@ -19,3 +20,17 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechaCar_mpg))
 
 # 7.) Saving MechaCarChallenge.RScript file to the GitHub repository.
+
+# Deliverable 2
+
+#1,) Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
+
+#2.) In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
+Suspension_coil = read.csv(file='./Resources/Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
+
+#3.) Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+total_summary_coil = Suspension_coil %>% summarize(Mean_PSI=mean(PSI),
+                                                   Median_PSI=median(PSI),
+                                                   Var_PSI=var(PSI),
+                                                   Std_Dev_PSI=sd(PSI),
+                                                   .groups = 'keep')
