@@ -32,3 +32,7 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 * Software: RScript and R
 
+# Deliverable 1: 
+
+## Linear Regression to Predict MPG
+
