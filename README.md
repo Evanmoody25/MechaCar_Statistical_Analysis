@@ -137,6 +137,30 @@ lot 3: p-value = 0.04168
 
 Our p-value is less than 0.05 which means we reject the null hypothesis. The mean is statistically significant in its difference to the assumed population mean (1500)
 
-# Deliverable 4
+# Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+
+requirments: 
+
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+## Study Design: MechaCar vs Competition
+
+For this study I will be running a multipal linear regression. As well as multiple single t tests on each variable within the multiple linear regression. First, within the multiple linear regression, I am going to use the following variables to see their effects on Sales (dependent variable). 
+
+Independent variables: 
+
+* safety rating 
+* price
+* mpg
+* yearly maintanance costs
+* engine type (biodeisle, electric, traditional) 
+
+the following model would result: 
+Sales = safety rating(x1) + prince(x2) + mpg(x3) + maintanance cost(x4) + engine type(x5) + intercept. 
+
+The Null hypothesis for this test is that these varibles do not have a statistically significant effect on the slope of out line. You could divid up or combine data to see how the industry is doing as a whole, or individual companies. 
+
+# Second
+I would take all the past variables used in the linear regression and perform t tests on them to get an idea of where we lie in relation to the rest of the market. You could begin with a two sided ttest to simply see if our mean in each category is different. You would use a 95% confidence interval and you null hypothesis would be that there is no difference in mean and your alternative hypothesis would say that there is. After that, would coupd begin to run one sided tests in a similar fashion to get a better idea on if the company is statistically ahead in a significant sense in each variable. It may provide insights on what the company is doing well and where it could improve its cars. 
 
 
